@@ -76,8 +76,12 @@
      color: white;
      font-weight: 500;
      border-radius: 20px;
+     border: none;
  }
-
+.btn-volunteer:hover{
+    background-color: var(--light-orange);
+    border: 1px solid var(--orange);
+}
  .dropdown-toggle::after {
      margin-left: 0.3em;
  }
@@ -293,7 +297,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 15px 10px;
+            /* padding: 10px 10px; */
             text-align: center;
             transition: transform 0.3s ease;
         }
@@ -306,6 +310,7 @@
             width: 28px;
             height: 28px;
             margin-bottom: 5px;
+            margin-top: 5px;
         }
 .b-card h4{
     font-size: 20px;
@@ -368,7 +373,7 @@
      height: 6px;
      border-bottom: 4px solid orange;
      border-radius: 50%;
-     bottom: -8px;
+     bottom: -6px;
      left: 0;
      transform: scaleX(1.5);
  }
@@ -1359,11 +1364,11 @@
      margin-bottom: 40px;
  }
 
- .approach-head h1 {
+ .approach-head h2 {
      font-size: 32px;
      position: relative;
      display: inline-block;
-     padding-bottom: 10px;
+     padding-bottom: 30px;
  }
 
  .you {
@@ -1954,6 +1959,7 @@
      border-radius: 20px;
      text-decoration: none;
      font-size: 14px;
+     
  }
 
  .read-all:hover {
@@ -2040,6 +2046,7 @@
          display: flex;
          flex-direction: column;
      }
+     
  }
 
  /* news update end */
@@ -2227,6 +2234,7 @@
      font-size: 35px;
      margin-bottom: 15px;
      font-family: "Poppins", sans-serif;
+
  }
 
  .blog {
@@ -2690,7 +2698,7 @@
  }
 
  .footer-logo {
-     color: var(--orange-primary);
+     color: var(--text-color);
      font-size: 24px;
      font-weight: bold;
      margin-bottom: 15px;
@@ -2708,14 +2716,18 @@
      line-height: 1.5;
      margin-bottom: 20px;
  }
-
+.footer-tagline:hover{
+    color: var(--orange);
+}
  .footer-heading {
      font-size: 18px;
      font-weight: bold;
      margin-bottom: 15px;
      color: var(--text-color);
  }
-
+.footer-heading:hover{
+    color: var(--orange);
+}
  .footer-links {
      list-style: none;
      padding-left: 0;
@@ -2734,7 +2746,7 @@
  }
 
  .footer-links li a:hover {
-     color: var(--orange-primary);
+     color: var(--orange);
  }
 
  .footer-links li::before {
@@ -2755,7 +2767,9 @@
      font-size: 22px;
      color: var(--text-color);
  }
-
+.newsletter-section h3:hover{
+    color: var(--orange);
+}
  .newsletter-form {
      width: 100%;
  }
@@ -2835,8 +2849,9 @@
  }
 
  .footer-social-icons a:hover {
-     background-color: var(--orange-primary);
+     background-color: var(--orange);
      transform: translateY(-3px);
+    
  }
 
  .icon-divider {
@@ -2853,6 +2868,7 @@
      flex-wrap: wrap;
      margin: 15px 0;
      gap: 5px 0;
+     transition: all 0.3sec ease-in-out;
  }
 
  .bottom-links a {
@@ -2864,7 +2880,8 @@
  }
 
  .bottom-links a:hover {
-     color: var(--orange-primary);
+     color: var(--orange);
+     
  }
 
  .link-divider {
@@ -2950,5 +2967,5 @@
      }
  }
 
- */
+ 
  /* footer end */
